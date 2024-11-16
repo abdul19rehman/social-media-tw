@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.button-container{
+    @apply flex items-center justify-center font-semibold text-xs rounded-lg bg-gray-600 px-28 py-3 hover:bg-neongreen hover:text-black text-white mb-4 md:text-sm
+}
